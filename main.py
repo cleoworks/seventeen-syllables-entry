@@ -7,7 +7,12 @@ Deterministic: the same bytes on every run. No network, no input, no randomness.
 
 import os
 
-HAIKU = "the watchpoint holds breath\nthe culprit tiptoes past it\nwearing my own shoes"
+# Jumlah suku kata tiap baris: 5, 7, 5.
+BARIS_1 = "the watchpoint holds breath"
+BARIS_2 = "the culprit tiptoes past it"
+BARIS_3 = "wearing my own shoes"
+
+HAIKU = "\n".join([BARIS_1, BARIS_2, BARIS_3])
 
 
 def main():
