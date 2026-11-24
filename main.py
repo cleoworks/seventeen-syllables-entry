@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Seventeen Syllables of Debugging — make.fun entry.
 
-Writes one haiku about debugging (5-7-5, 73 characters) to /output/entry.txt.
+Writes one haiku about debugging (5-7-5, 76 characters) to /output/entry.txt.
 Deterministic: the same bytes on every run. No network, no input, no randomness.
 """
 
 import os
 
-HAIKU = "a leak drips all night\nthe old heap drinks it slowly\nby morning, no floor"
+HAIKU = "the watchpoint holds breath\nthe culprit tiptoes past it\nwearing my own shoes"
 
 
 def main():
